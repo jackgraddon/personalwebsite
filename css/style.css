@@ -14,15 +14,6 @@ body {
     -ms-overflow-style: none;
 }
 
-#background {
-    background-image: url(../images/palms.jpeg);
-    background-repeat: repeat;
-    background-blend-mode: overlay;
-    background-position: center;
-    background-size: 110%;
-    background-color: #17181a;
-}
-
 /*Hides scrollbars on webKit browsers*/
 body::-webkit-scrollbar {
     display: none
