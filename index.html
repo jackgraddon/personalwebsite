@@ -15,8 +15,7 @@
     <link href="css/style.css" rel="stylesheet" type="text/css" />
 </head>
 
-<body
-    style="background-image: url(images/palms.jpeg); background-repeat: no-repeat; background-blend-mode: overlay; background-position: center; background-size: cover; background-color: #17181a">
+<body id="background">
     <nav class="navbar navbar-expand-sm navbar-light bg-light sticky-top">
         <a class="navbar-brand" href="index.html" style="font-size: 20pt">JG</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -35,14 +34,18 @@
                 <li class="nav-item">
                     <a class="nav-link" href="illustrator.html">Illustrator</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="web.html">Websites</a>
+                </li>
             </ul>
         </div>
     </nav>
-    <main role="main" class="container">
-        <div class="jumbotron mt-5 mb-4">
+    <main role="main" class="container" id="main">
+        <div class="jumbotron mt-5 mb-4 shadow" id="header">
             <h1>Jack Graddon</h1>
             <p class="lead">Web / Graphic Arts Portfolio</p>
         </div>
+        <hr id="divider" class="mb-4 mt-4">
         <div class="card-deck card-deck-expand-lg mb-5">
             <div class="card">
                 <div class="card-body">
@@ -112,8 +115,7 @@
             <p class="text-sm">All Images subject to Copyright (&copy;) under Jackson Graddon</p>
         </div>
     </nav>
-    <script src="script/scroll.js"></script>
-    <script src="script/shadowHover.js"></script>
+    <script src="script/parallax.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
     </script>

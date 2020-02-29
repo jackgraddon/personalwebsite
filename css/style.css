@@ -1,4 +1,4 @@
-@import "animationControllers.css"; 
+@import "animationControllers.css";
 
 /*body adjustments*/
 body {
@@ -13,39 +13,99 @@ body {
     /*hides scrollbar on Microsoft Broswers*/
     -ms-overflow-style: none;
 }
+
+#background {
+    background-image: url(../images/palms.jpeg);
+    background-repeat: repeat;
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: 110%;
+    background-color: #17181a;
+}
+
 /*Hides scrollbars on webKit browsers*/
-body::-webkit-scrollbar {display: none}
+body::-webkit-scrollbar {
+    display: none
+}
 
 /*text adjustments*/
 
-.text-lg {font-size: 24pt}
-.text-md {font-size: 14pt}
-.text-sm {font-size: 10pt}
+.text-lg {
+    font-size: 24pt
+}
 
-.text-sans {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
-.text-serif {font-family: 'Times New Roman', Times, serif;}
+.text-md {
+    font-size: 14pt
+}
 
-.text-italic {font-style: italic;}
-.text-oblique {font-style: oblique;}
-.text-bold {font-weight: bold;}
+.text-sm {
+    font-size: 10pt
+}
 
-a {text-decoration: none;}
+.text-sans {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.text-serif {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.text-italic {
+    font-style: italic;
+}
+
+.text-oblique {
+    font-style: oblique;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
 
 
 /*media adjustments*/
-img {border-radius: 5px;transition: 0.3s}
-img:hover {transform: scale(1.005)}
-img.clear {border: none;border-radius: 0px;}
+img {
+    border-radius: 5px;
+    transition: 0.3s
+}
+
+img:hover {
+    transform: scale(1.005);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
+}
+
+img.clear {
+    border: none;
+    border-radius: 0px;
+}
 
 /*custom classes*/
-button.spaced{margin-left: 2px;margin-right: 2px;}
+button.spaced {
+    margin-left: 2px;
+    margin-right: 2px;
+}
 
-.stacked-layer-bottom {position: relative; z-index: 0;}
-.stacked-layer-middle {position: absolute; z-index: 1;}
-.stacked-layer-top {position: absolute; z-index: 2;}
+.stacked-layer-bottom {
+    position: relative;
+    z-index: 0;
+}
 
-/*Super Secret Classes*/
-.float-left {float: left}
-.float-right {float: right}
-.lookinWack {color: white; border: 1px solid white; border-radius: 5px; padding: 5px 20px}
-.poggers {color: crimson; font-family:  serif; margin: 5px 10px; padding: 10px 50px}
+.stacked-layer-middle {
+    position: absolute;
+    z-index: 1;
+}
+
+.stacked-layer-top {
+    position: absolute;
+    z-index: 2;
+}
+
+#divider {
+    height: 1px;
+    border-radius: 100%;
+    background-color: rgb(255, 255, 255, 0.5);
+}
