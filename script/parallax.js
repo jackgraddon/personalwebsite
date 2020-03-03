@@ -1,5 +1,5 @@
 const backgrounds = document.querySelectorAll("#background");
-const header = document.querySelectorAll('#header');
+const header = document.querySelectorAll('.header');
 const range = 20;
 
 const calcValue = (a, b) => (a / b * range - range / 2).toFixed(1);
@@ -18,7 +18,8 @@ document.addEventListener('mousemove', ({
         const xValue = calcValue(x, window.innerWidth);
 
         [].forEach.call(header, (header) => {
-            header.style.transform = `translateX(${-xValue * 1.2}px) translateY(${-yValue * 1.2}px)`;
+            // header.style.transform = `translateX(${-xValue * 1.2}px) translateY(${-yValue * 1.2}px)`;
+            header.style.transform = `translateX(0) translateY(0)`;
         });
 
         [].forEach.call(backgrounds, (background) => {
