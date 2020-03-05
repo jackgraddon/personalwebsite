@@ -7,14 +7,16 @@ if (!theme) {
 
 function swapTheme() {
     if (theme == 'light') {
+        $('html').toggleClass('dark');
         Cookies.set('theme', 'dark', {
             expires: 7
         });
-        $('html').toggleClass('dark');
+        break;
     } else if (theme == 'dark') {
+        $('html').toggleClass('dark');
         Cookies.set('theme', 'light', {
             expires: 7
         });
-        $('html').toggleClass('dark');
+        break;
     }
 }
