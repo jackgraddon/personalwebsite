@@ -6,7 +6,7 @@ if (!theme) {
 }
 
 function swapTheme() {
-    if (theme != 'dark') {
+    if (theme == 'dark') {
         $('.navbar').removeClass('dark');
         $('.navbar').addClass('navbar-light');
         $('.navbar').removeClass('navbar-dark')
@@ -20,7 +20,7 @@ function swapTheme() {
                 expires: 7
             });
         }, 100)
-    } else if (theme != 'light') {
+    } else if (theme == 'light') {
         $('.navbar').addClass('dark');
         $('.navbar').removeClass('navbar-light');
         $('.navbar').addClass('navbar-dark')
