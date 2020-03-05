@@ -7,14 +7,26 @@ if (!theme) {
 
 function swapTheme() {
     if (theme == 'light') {
-        $('body').toggleClass('dark');
-        Cookies.set('theme', 'dark', {
-            expires: 7
-        });
+        $('.navbar').toggleClass('dark');
+        $('.card-body').toggleClass('dark');
+        $('.card-header').toggleClass('dark');
+        $('.card-footer').toggleClass('dark');
+        $('.jumbotron').toggleClass('dark');
+        setTimeout(()=> {
+            Cookies.set('theme', 'dark', {
+                expires: 7
+            });
+        }, 100)
     } else if (theme == 'dark') {
-        $('body').toggleClass('dark');
-        Cookies.set('theme', 'light', {
-            expires: 7
-        });
+        $('.navbar').toggleClass('dark');
+        $('.card-body').toggleClass('dark');
+        $('.card-header').toggleClass('dark');
+        $('.card-footer').toggleClass('dark');
+        $('.jumbotron').toggleClass('dark');
+        setTimeout(()=> {
+            Cookies.set('theme', 'dark', {
+                expires: 7
+            });
+        }, 100)
     }
 }
