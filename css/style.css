@@ -1,14 +1,14 @@
 @import "root.css";
 @import "animationControllers.css";
 
+.darkBody {
+    background-color: #000 !important;
+}
+
 .dark {
     background-color: #343a40 !important;
     border-color: #373e44 !important;
     color: #fff !important;
-}
-
-body .dark {
-    background-color: #000;
 }
 
 /*body adjustments*/
@@ -80,10 +80,12 @@ a {
 .card {
     border: #fff 1px solid;
 }
+
 .spaced {
     margin-left: 4px;
     margin-right: 4px;
 }
+
 /*media adjustments*/
 img {
     border-radius: 5px;
