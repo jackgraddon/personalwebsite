@@ -6,7 +6,7 @@
     border-color: #373e44 !important;
     color: #fff !important;
 }
-#backgroundAlt {
+/* #backgroundAlt {
     background-color: #fff !important;
     z-index: 0;
     width: 105vw;
@@ -23,7 +23,7 @@
     position: fixed;
     top: -2.5vh;
     left: -2.5vw;
-}
+} */
 
 /*body adjustments*/
 body {
