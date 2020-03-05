@@ -6,24 +6,10 @@
     border-color: #373e44 !important;
     color: #fff !important;
 }
-/* #backgroundAlt {
-    background-color: #fff !important;
-    z-index: 0;
-    width: 105vw;
-    height: 105vh;
-    position: fixed;
-    top: -2.5vh;
-    left: -2.5vw;
+
+body .dark {
+    background-color: #000;
 }
-.dark #backgroundAlt{
-    background-color: #000 !important;
-    z-index: 0;
-    width: 105vw;
-    height: 105vh;
-    position: fixed;
-    top: -2.5vh;
-    left: -2.5vw;
-} */
 
 /*body adjustments*/
 body {
@@ -57,6 +43,7 @@ body::-webkit-scrollbar {
     top: -2.5vh;
     left: -2.5vw;
 }
+
 #backgroundM {
     z-index: 0;
     width: 105vw;
@@ -66,6 +53,7 @@ body::-webkit-scrollbar {
     top: -2.5vh;
     left: -2.5vw;
 }
+
 #name {
     z-index: 2;
     display: block;
@@ -80,6 +68,7 @@ nav {
     z-index: 1;
     transition: 0.3s;
 }
+
 .text-sm {
     font-size: 8pt
 }
