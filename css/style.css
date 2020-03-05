@@ -6,8 +6,23 @@
     border-color: #343a40 !important;
     color: #fff !important;
 }
-body .dark{
-    background-color: black !important;
+#backgroundAlt {
+    background-color: #fff !important;
+    z-index: 0;
+    width: 105vw;
+    height: 105vh;
+    position: fixed;
+    top: -2.5vh;
+    left: -2.5vw;
+}
+.dark #backgroundAlt{
+    background-color: #000 !important;
+    z-index: 0;
+    width: 105vw;
+    height: 105vh;
+    position: fixed;
+    top: -2.5vh;
+    left: -2.5vw;
 }
 
 /*body adjustments*/
@@ -46,7 +61,7 @@ body::-webkit-scrollbar {
     z-index: 0;
     width: 105vw;
     height: 105vh;
-    background-color: #17181a;
+    background-color: #000;
     position: fixed;
     top: -2.5vh;
     left: -2.5vw;
