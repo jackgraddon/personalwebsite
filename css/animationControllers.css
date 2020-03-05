@@ -55,7 +55,7 @@
 
 .badge-gradient {
     animation: gradient 10s ease infinite;
-    background: linear-gradient(203deg, #7bc4ff, #e387ff);
+    background: linear-gradient(203deg, #00ccff, #c300ff);
     background-size: 600% 600%;
 }
 
