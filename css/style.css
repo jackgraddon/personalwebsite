@@ -87,6 +87,9 @@ a {
     text-decoration: none;
 }
 
+.card {
+    border: #fff 1px solid;
+}
 
 /*media adjustments*/
 img {
