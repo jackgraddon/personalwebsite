@@ -8,6 +8,8 @@ if (!theme) {
 function swapTheme() {
     if (theme == 'light') {
         $('.navbar').toggleClass('dark');
+        $('nav').toggleClass('navbar-light');
+        $('nav').toggleClass('navbar-dark')
         $('.card-body').toggleClass('dark');
         $('.card-header').toggleClass('dark');
         $('.card-footer').toggleClass('dark');
