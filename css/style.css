@@ -6,6 +6,9 @@
     border-color: #343a40 !important;
     color: #fff !important;
 }
+.dark body {
+    background-color: black;
+}
 
 /*body adjustments*/
 body {
