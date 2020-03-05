@@ -9,7 +9,7 @@
 
 /*Animations*/
 .bouncing {
-    animation: bouncing 1s infinite ease-in-out
+    animation: bouncing 1s infinite ease-in-out;
 }
 
 @keyframes bouncing {
@@ -26,7 +26,7 @@
 
 
 .fadeOut {
-    animation: fadeOut 0.3s
+    animation: fadeOut 0.3s;
 }
 
 @keyframes fadeOut {
@@ -40,7 +40,7 @@
 }
 
 .fadeIn {
-    animation: fadeIn 0.3s
+    animation: fadeIn 0.3s;
 }
 
 @keyframes fadeIn {
@@ -50,5 +50,25 @@
 
     to {
         opacity: 1
+    }
+}
+
+.badge-gradient {
+    animation: gradient 10s ease infinite;
+    background: linear-gradient(203deg, #7bc4ff, #e387ff);
+    background-size: 600% 600%;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
     }
 }

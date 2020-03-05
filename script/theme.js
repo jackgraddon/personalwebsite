@@ -3,7 +3,6 @@ if (!theme) {
     Cookies.set('theme', 'light', {
         expires: 7
     });
-    $('.toast').toast();
 }
 
 function swapTheme() {
