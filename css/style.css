@@ -2,7 +2,8 @@
 @import "animationControllers.css";
 
 .darkBody {
-    background-color: #000 !important;
+    background-color: #26292c !important;
+    color: #fff;
 }
 
 .dark {
