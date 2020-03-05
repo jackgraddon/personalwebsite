@@ -1,5 +1,11 @@
 @import "animationControllers.css";
 
+.dark {
+    background-color: var(--dark);
+    border-color: var(--gray-dark);
+    color: var(--white);
+}
+
 /*body adjustments*/
 body {
     cursor: default;
