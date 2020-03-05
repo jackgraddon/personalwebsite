@@ -19,6 +19,7 @@ function swapTheme() {
         Cookies.set('theme', 'light', {
             expires: 7
         });
+        window.location.reload();
     } else if (theme == 'light') {
         $('body').addClass('darkBody');
         $('.navbar').addClass('dark');
@@ -32,6 +33,7 @@ function swapTheme() {
         Cookies.set('theme', 'dark', {
             expires: 7
         });
+        window.location.reload();
     }
 }
 
