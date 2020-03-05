@@ -18,8 +18,6 @@ body {
     -ms-user-select: none;
     user-select: none;
     /*hides scrollbar on Microsoft Broswers*/
-    -ms-overflow-style: none;
-    scroll-behavior: smooth;
 }
 
 /*Hides scrollbars on webKit browsers*/
@@ -41,47 +39,27 @@ body::-webkit-scrollbar {
     top: -2.5vh;
     left: -2.5vw;
 }
+#backgroundM {
+    z-index: 0;
+    width: 105vw;
+    height: 105vh;
+    background-color: #17181a;
+    position: fixed;
+    top: -2.5vh;
+    left: -2.5vw;
+}
 #name {
-    z-index: 1;
+    z-index: 2;
+    display: block;
+    transform: translateX(0) translateY(0);
 }
 
 .container {
     z-index: 1;
     transition: 0.3s;
 }
-
-/*text adjustments*/
-
-.text-lg {
-    font-size: 24pt
-}
-
-.text-md {
-    font-size: 14pt
-}
-
 .text-sm {
-    font-size: 10pt
-}
-
-.text-sans {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.text-serif {
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.text-italic {
-    font-style: italic;
-}
-
-.text-oblique {
-    font-style: oblique;
-}
-
-.text-bold {
-    font-weight: bold;
+    font-size: 8pt
 }
 
 a {
