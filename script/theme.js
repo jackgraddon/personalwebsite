@@ -15,11 +15,9 @@ function swapTheme() {
         $('.card-footer').removeClass('dark');
         $('.jumbotron').removeClass('dark');
         $('.card').removeClass('dark');
-        setTimeout(()=> {
-            Cookies.set('theme', 'light', {
-                expires: 7
-            });
-        }, 100)
+        Cookies.set('theme', 'light', {
+            expires: 7
+        });
     } else if (theme == 'light') {
         $('.navbar').addClass('dark');
         $('.navbar').removeClass('navbar-light');
@@ -29,11 +27,9 @@ function swapTheme() {
         $('.card-footer').addClass('dark');
         $('.jumbotron').addClass('dark');
         $('.card').addClass('dark');
-        setTimeout(()=> {
-            Cookies.set('theme', 'dark', {
-                expires: 7
-            });
-        }, 100)
+        Cookies.set('theme', 'dark', {
+            expires: 7
+        });
     }
 }
 
