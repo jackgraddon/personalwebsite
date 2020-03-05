@@ -47,6 +47,7 @@ body::-webkit-scrollbar {
 
 .container {
     z-index: 1;
+    transition: 0.3s;
 }
 
 /*text adjustments*/
