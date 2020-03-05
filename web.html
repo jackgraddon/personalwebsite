@@ -9,14 +9,17 @@
     <!-- JQuery -->
     <script src="https://code.jquery.com/jquery-3.4.1.js"
         integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <!-- jsCookie -->
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@beta/dist/js.cookie.min.js"></script>
+    <!-- Theme Code -->
+    <script src="script/theme.js" type="text/javascript"></script>
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <!-- Personal CSS -->
     <link href="css/style.css" rel="stylesheet" type="text/css" />
 </head>
 
-<body>
+<body onload="javascript:setTheme()">
     <nav class="navbar navbar-expand-sm navbar-light bg-light">
         <a class="navbar-brand" href="https://jackgraddon.github.io/personalwebsite" style="font-size: 20pt">JG</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -53,7 +56,8 @@
             <div class="card bg-light">
                 <div class="card-body">
                     <h5 class="card-title">Lynden High School Bulletin Website</h5>
-                    <p class="card-text">I had the oportunity to redesign the old LHS Daily Bulletin Website from Basic to Modern!</p>
+                    <p class="card-text">I had the oportunity to redesign the old LHS Daily Bulletin Website from Basic to Modern!</p><br>
+                    <p class="text-sm text-black-50">Noticed: Dates function weird when the month changes.</p>
                     <a href="https://bit.ly/BCJLHSB" class="btn btn-primary" target="_blank">View</a>
                 </div>
             </div>
