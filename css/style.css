@@ -72,6 +72,10 @@ body::-webkit-scrollbar {
     transform: translateX(0) translateY(0);
 }
 
+nav {
+    z-index: 3;
+}
+
 .container {
     z-index: 1;
     transition: 0.3s;
