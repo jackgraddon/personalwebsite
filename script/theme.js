@@ -12,7 +12,7 @@ function swapTheme() {
         $('.card-header').toggleClass('dark');
         $('.card-footer').toggleClass('dark');
         $('.jumbotron').toggleClass('dark');
-        $('img').toggleClass('dark');
+        $('.card').toggleClass('dark');
         setTimeout(()=> {
             Cookies.set('theme', 'dark', {
                 expires: 7
