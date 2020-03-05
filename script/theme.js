@@ -1,12 +1,12 @@
 const theme = Cookies.get('theme');
+if (!theme) {
+    Cookies.set('theme', 'light', {
+        expires: 7
+    });
+    $('.toast').toast();
+}
 
 function swapTheme() {
-    if (!theme) {
-        Cookies.set('theme', 'light', {
-            expires: 7
-        });
-        $('.toast').toast();
-    }
     if (theme == 'light') {
         Cookies.set('theme', 'dark', {
             expires: 7
