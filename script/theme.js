@@ -1,4 +1,3 @@
-import Cookies from 'js-cookie';
 const theme = Cookies.get('theme');
 
 function swapTheme() {

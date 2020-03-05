@@ -34,6 +34,9 @@ body::-webkit-scrollbar {
     top: -2.5vh;
     left: -2.5vw;
 }
+#name {
+    z-index: 1;
+}
 
 .container {
     z-index: 1;
