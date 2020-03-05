@@ -80,7 +80,10 @@ a {
 .card {
     border: #fff 1px solid;
 }
-
+.spaced {
+    margin-left: 4px;
+    margin-right: 4px;
+}
 /*media adjustments*/
 img {
     border-radius: 5px;
