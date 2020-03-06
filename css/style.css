@@ -17,6 +17,9 @@
     nav .active {
         color: white !important;
     }
+    .nav-link {
+        color: gray;
+    }
     .nav-link:hover {
         color: rgba(255, 255, 255, 0.5);
     }
