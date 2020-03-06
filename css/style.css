@@ -1,15 +1,47 @@
 @import "root.css";
 @import "animationControllers.css";
 
-.darkBody {
-    background-color: #26292c !important;
-    color: #fff;
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: black !important;
+        color: white !important;
+    }
+    .card-body,
+    .card,
+    .jumbotron,
+    .navbar {
+        background-color: #343a40 !important;
+        border-color: #373e44 !important;
+        color: white !important;
+    }
+    nav .active {
+        color: white !important;
+    }
+    .nav-link:hover {
+        color: rgba(255, 255, 255, 0.5);
+    }
 }
 
-.dark {
-    background-color: #343a40 !important;
-    border-color: #373e44 !important;
-    color: #fff !important;
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: white !important;
+        color: black !important;
+    }
+    .card-body,
+    .card,
+    .jumbotron,
+    .navbar {
+        background-color: white !important;
+        border-color: white !important;
+        color: black !important;
+    }
+    nav .active {
+        color: black;
+    }
+    .nav-link:hover {
+        color: black;
+    }
+    
 }
 
 /*body adjustments*/
@@ -22,7 +54,6 @@ body {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    /*hides scrollbar on Microsoft Broswers*/
 }
 
 /*Hides scrollbars on webKit browsers*/
@@ -64,6 +95,10 @@ body::-webkit-scrollbar {
 nav {
     z-index: 3;
 }
+.nav-link {
+    color: gray;
+}
+
 
 .container {
     z-index: 1;
