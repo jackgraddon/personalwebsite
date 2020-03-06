@@ -3,9 +3,10 @@
 
 @media (prefers-color-scheme: dark) {
     body {
-        background-color: black !important;
+        background-color: #26292c !important;
         color: white !important;
     }
+
     .card-body,
     .card,
     .jumbotron,
@@ -14,22 +15,30 @@
         border-color: #373e44 !important;
         color: white !important;
     }
-    nav .active {
-        color: white !important;
-    }
+
     .nav-link {
-        color: gray;
+        color: rgb(150, 150, 150) !important;
     }
+
     .nav-link:hover {
         color: rgba(255, 255, 255, 0.5);
+    }
+
+    .nav-item .active {
+        color: white !important;
+    }
+
+    .navbar-brand {
+        color: white;
     }
 }
 
 @media (prefers-color-scheme: light) {
     body {
-        background-color: white !important;
+        background-color: rgb(219, 219, 219) !important;
         color: black !important;
     }
+
     .card-body,
     .card,
     .jumbotron,
@@ -38,13 +47,23 @@
         border-color: white !important;
         color: black !important;
     }
-    nav .active {
-        color: black;
+
+    .nav-link {
+        color: gray;
     }
+
     .nav-link:hover {
         color: black;
     }
-    
+
+    .active {
+        color: black !important;
+    }
+
+    .navbar-brand {
+        color: black;
+    }
+
 }
 
 /*body adjustments*/
@@ -79,16 +98,6 @@ body::-webkit-scrollbar {
     left: -2.5vw;
 }
 
-#backgroundM {
-    z-index: 0;
-    width: 105vw;
-    height: 105vh;
-    background-color: #000;
-    position: fixed;
-    top: -2.5vh;
-    left: -2.5vw;
-}
-
 #name {
     z-index: 2;
     display: block;
@@ -98,6 +107,7 @@ body::-webkit-scrollbar {
 nav {
     z-index: 3;
 }
+
 .nav-link {
     color: gray;
 }
@@ -118,11 +128,6 @@ a {
 
 .card {
     border: #fff 1px solid;
-}
-
-.spaced {
-    margin-left: 4px;
-    margin-right: 4px;
 }
 
 /*media adjustments*/

@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm">
+    <nav class="navbar navbar-expand-sm sticky-top bg-light shadow">
         <a class="navbar-brand" href="https://jackgraddon.github.io/personalwebsite" style="font-size: 20pt">JG</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,8 +33,8 @@
                 <li class="nav-item">
                     <a class="nav-link" href="photoshop.html">Photoshop</a>
                 </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="illustrator.html">Illustrator</a>
+                <li class="nav-item">
+                    <a class="nav-link active" href="illustrator.html">Illustrator</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="web.html">Websites</a>
@@ -42,7 +42,6 @@
             </ul>
         </div>
     </nav>
-    <div id="backgroundAlt"></div>
     <main role="main" class="container">
         <div class="mt-5">
             <h1>Jack Graddon</h1>
@@ -54,7 +53,7 @@
         </div>
         <div class="jumbotron" id="freetime">
             <div class="d-flex justify-content-center">
-                <img classs="stacked-layer-middle" src="illustrator/dune.jpg" width="90%">
+                <img style="width:50%" src="illustrator/dune.jpg" width="90%">
             </div>
             <div class="d-flex justify-content-center mt-1">
                 <p class="text-muted">Made with Affinity Designer on an iPad Pro in mid-late 2019.</p>
@@ -65,15 +64,17 @@
             <h3>Learning Illustrator</h3>
         </div>
         <div class="jumbotron" id="classwork">
-            <div class="d-flex flex-row justify-content-center mb-2">
-                <button id="1" onclick="javascript:img(1)" class="btn btn-primary spaced">1</button>
-                <button id="2" onclick="javascript:img(2)" class="btn btn-secondary spaced">2</button>
-                <button id="3" onclick="javascript:img(3)" class="btn btn-secondary spaced">3</button>
-                <button id="4" onclick="javascript:img(4)" class="btn btn-secondary spaced">4</button>
-                <button id="5" onclick="javascript:img(5)" class="btn btn-secondary spaced">5</button>
-                <button id="6" onclick="javascript:img(6)" class="btn btn-secondary spaced">6</button>
-                <button id="7" onclick="javascript:img(7)" class="btn btn-secondary spaced">7</button>
-                <button id="8" onclick="javascript:img(8)" class="btn btn-secondary spaced">Final</button>
+            <div class="d-flex justify-content-center mb-2 btn-toolbar">
+                <div class="btn-group">
+                    <button id="1" onclick="javascript:img(1)" class="btn btn-primary">1</button>
+                    <button id="2" onclick="javascript:img(2)" class="btn btn-secondary">2</button>
+                    <button id="3" onclick="javascript:img(3)" class="btn btn-secondary">3</button>
+                    <button id="4" onclick="javascript:img(4)" class="btn btn-secondary">4</button>
+                    <button id="5" onclick="javascript:img(5)" class="btn btn-secondary">5</button>
+                    <button id="6" onclick="javascript:img(6)" class="btn btn-secondary">6</button>
+                    <button id="7" onclick="javascript:img(7)" class="btn btn-secondary">7</button>
+                    <button id="8" onclick="javascript:img(8)" class="btn btn-secondary">Final</button>
+                </div>
             </div>
             <div class="d-flex justify-content-center">
                 <img style="width:50%" id="img" src="illustrator/ill1.gif">
