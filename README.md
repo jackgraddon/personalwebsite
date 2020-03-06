@@ -1,10 +1,7 @@
 # My Personal Website
 
-New Theme Button on PC Index page:
-- Change the theme (dark or light, light by default)
-- Applies to all pages
-- Can only change settings on PC (Mobile locked in light mode due to Javascript bugs)
-- Button reloads the page because it locks itself after one use, not sure why, this just started recently.
+Removed Theme Button:
+- It is now set by your device's theme setting.
 
 ----------------------------------
 You do not have permission to:
