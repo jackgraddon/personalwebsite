@@ -1,5 +1,6 @@
 @import "root.css";
 @import "animationControllers.css";
+@import "menutoggle.css";
 
 @media (prefers-color-scheme: dark) {
     body {
@@ -30,6 +31,9 @@
 
     .navbar-brand {
         color: white;
+    }
+    #webapp_cover {
+        background-color: rgba(255, 255, 255, 0);
     }
 }
 
@@ -63,6 +67,21 @@
     .navbar-brand {
         color: black;
     }
+    .navbar-brand:hover {
+        color: rgba(0, 0, 0, 0.5);
+    }
+    .navbar-brand:active {
+        color: rgba(0, 0, 0, 0.25);
+    }
+    #webapp_cover {
+        background-color: rgba(255, 255, 255, 0);
+    }
+    #menu_text_bar:before{
+        color: black !important;
+    }
+    #menu_label:before, #menu_label:after, #menu_text_bar {
+        background-color: black;
+    }
 
 }
 
@@ -82,7 +101,9 @@ body {
 body::-webkit-scrollbar {
     display: none
 }
-
+.navbar-toggler {
+    background-color: rgba(0, 0, 0, 0.25);
+}
 #background {
     z-index: 0;
     width: 105vw;
